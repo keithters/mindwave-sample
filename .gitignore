@@ -1,5 +1,5 @@
 # Exclude the build directory
-*/build/*
+xcode/build/*
  
 # Exclude temp nibs and swap files
 *~.nib
