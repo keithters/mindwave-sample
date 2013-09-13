@@ -1,4 +1,4 @@
-#include "cinder/app/AppNative.h"
+ #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 
 #include "Mindwave.h"
@@ -6,7 +6,7 @@
 #if defined( CINDER_MAC )
 	#define PORT "/Dev/tty.MindWave"
 #else
-	#define PORT "\\\\.\\COM5"
+	#define PORT "\\\\.\\COM3"
 #endif
 
 using namespace ci;
@@ -21,7 +21,7 @@ class MindwaveApp : public AppNative {
 	
 	Mindwave *mMindwave;
 	
-	int sig;
+	int sig; 
 	int att;
 	int med;
 	

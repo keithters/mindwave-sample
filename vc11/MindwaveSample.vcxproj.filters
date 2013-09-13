@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
@@ -12,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{05c40111-33bf-4e61-9b0b-fc010faccb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Mindwave">
+      <UniqueIdentifier>{3827b7c6-3c16-419f-b81a-10437fcd05f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\MindwaveSampleApp.cpp">
@@ -23,10 +30,16 @@
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\..\cinder_master\blocks\Mindwave\src\cinder\Mindwave.cpp">
+      <Filter>Blocks\Mindwave</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder_master\blocks\Mindwave\src\cinder\Mindwave.h">
+      <Filter>Blocks\Mindwave</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
